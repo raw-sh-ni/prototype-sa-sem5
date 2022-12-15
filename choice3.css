@@ -5,10 +5,10 @@
     font-family: poppins;
     font-size: 60px;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-right: 43px;
     margin-bottom: 43px;
-    margin-left: 70px;
+    margin-left: 150px;
     color: #000000;
     text-decoration: none;
     vertical-align: middle;
@@ -24,8 +24,8 @@
     color: black;
     background-color: white;
     padding-top: 16px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
     padding-bottom: 16px;
     text-align: center;
     text-decoration: none;
@@ -34,14 +34,13 @@
     font-size: 26px;
     transition-duration: 0.4s;
     cursor: pointer;
-    width: 400px;
+    width: 200px;
 }
-/*button-LMV*/
+
+
 .button1 {
-    margin-right: auto;
-    margin-left: auto;
-    top: 250px;
-    
+    top: 300px;
+    margin-left: 200px;
   }
 .button1:hover {
     background-color: black;
@@ -49,24 +48,50 @@
     
 
 }
-/*button-MMV*/
+
+
 .button2 {
-    margin-left: auto;
-    margin-right: auto;
-    top: 270px;
+    margin-left: 420px;
+    margin-top: 223px;
   }
 .button2:hover {
    
     background-color: black;
     color:white;
 }
-/*button-HMV*/
+
+
 .button3 {
-    margin-left: auto;
-    margin-right: auto;
-    top: 290px;
+    top: 250px;
+    margin-top: -327px;
+    margin-left: 640px;
   }
 .button3:hover {
+   
+    background-color: black;
+    color: white;
+}
+
+
+.button4 {
+    top: 250px;
+    margin-top: -77px;
+    margin-left: 860px;
+  }
+.button4:hover {
+   
+    background-color: black;
+    color:white;
+}
+
+
+.button5 {
+
+    top: 250px;
+    margin-top: -77px;
+    margin-left: 1080px;
+  }
+.button5:hover {
    
     background-color: black;
     color: white;
