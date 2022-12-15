@@ -45,8 +45,12 @@
 .button1:hover {
     background-color: black;
     color: white;
-    
+}
 
+.button1:active {
+    background-color: #ADC6AD;
+    color: white;
+    border: 0px none black;
 }
 
 
@@ -58,6 +62,12 @@
    
     background-color: black;
     color:white;
+}
+
+.button2:active {
+    background-color: #ADC6AD;
+    color: white;
+    border: 0px none black;
 }
 
 
@@ -72,6 +82,12 @@
     color: white;
 }
 
+.button3:active {
+    background-color: #ADC6AD;
+    color: white;
+    border: 0px none black;
+}
+
 
 .button4 {
     top: 250px;
@@ -84,6 +100,11 @@
     color:white;
 }
 
+.button4:active {
+    background-color: #ADC6AD;
+    color: white;
+    border: 0px none black;
+}
 
 .button5 {
 
@@ -97,6 +118,11 @@
     color: white;
 }
 
+.button5:active {
+    background-color: #ADC6AD;
+    color: white;
+    border: 0px none black;
+}
 
 .navbutton{
     font-family: Poppins;
