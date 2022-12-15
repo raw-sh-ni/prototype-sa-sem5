@@ -1,20 +1,36 @@
 @charset "UTF-8";
 
+html, 
+html * {
+	padding: 0;
+	margin: 20;
+	box-sizing: border-box;
+	font-family: poppins;
+}
+
+header {
+    padding: 32px;
+}
+
+
+
+
 #question {
     text-align: center;
     font-family: poppins;
     font-size: 60px;
     position: absolute;
-    margin-top: 43px;
-    margin-right: 43px;
-    margin-bottom: 43px;
-    margin-left: 70px;
+    margin-top: -215px;
     color: #000000;
     text-decoration: none;
-    vertical-align: middle;
-    padding-left: 260px;
-    padding-top: 40px;
-    max-width: 800px;
+    left: 475px;
+    /* box-sizing: border-box;
+    justify-content: center;
+    align-content: center;  */
+    
+    
+    top: 300px;
+    margin-left: -65px;
 }
 
 .button {
@@ -29,33 +45,30 @@
     padding-bottom: 16px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    position: relative;
+    display: inline;
+    /*   position: relative; */
     font-size: 26px;
     transition-duration: 0.4s;
     cursor: pointer;
-    max-width: 800px;
+    width: 150px;
+    margin-top: 295px;    
+    
 }
 /*button-two*/
 .button1 {
-    margin-top: 0px;
-    margin-right: 5px;
-    margin-left: 300px;
-    top: -295px;
+    margin-left: 250px;
+    left: 0px;
   }
 .button1:hover {
     background-color: black;
     color: white;
-    margin-top: -205px;
-    top: -295px;
+    
 
 }
 /*button-three*/
 .button2 {
-    margin-top: 250px;
     margin-left: 20px;
     margin-right: 5px;
-    top: -295px;
   }
 .button2:hover {
    
@@ -64,10 +77,8 @@
 }
 /*button-four*/
 .button3 {
-    margin-top: 250px;
     margin-left: 20px;
     margin-right: 5px;
-    top: -295px;
   }
 .button3:hover {
    
@@ -76,10 +87,8 @@
 }
 /*button-six*/
 .button4 {
-    margin-top: 250px;
     margin-left: 20px;
     margin-right: 5px;
-    top: -295px;
    }
 .button4:hover {
    
@@ -88,10 +97,8 @@
 }
 /*button->six*/
 .button5 {
-    margin-top: 250px;
     margin-left: 20px;
     margin-right: 5px;
-    top: -295px;
   }
 .button5:hover {
     
@@ -108,25 +115,25 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    position: relative;
     font-size: 24px;
     transition-duration: 0.4s;
     cursor: pointer;
-    top: -19px;
 }
 
 .button6 {
-    position: static;
-    background-color:black;
+    background-color: black;
     color: white;
     border-style: none;
-    margin-top: 600px;
-    top: 25px;
-    left: -744px;
-    margin-left: -510px;
     border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px; 
-   
+    border-bottom-left-radius: 50px;
+    top: 0px;
+    left: 0px;
+    display: inline-flex;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin-left: 559px;
+    margin-top: 80px;
   }
 .button6:hover {
     padding-left:70px;
@@ -137,13 +144,12 @@
 
 
 .button7 {
-    position:static;
-    background-color:black;
+    background-color: black;
     color: white;
-    top: 20px;
     border-style: none;
     border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px; 
+    border-bottom-right-radius: 50px;
+    right: 0px;
   }
 .button7:hover {
     padding-left: 70px;
@@ -152,4 +158,104 @@
     color: white;
     
   }
+
+
+.col {
+	width: 100%;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+
+/* mobile view */
+
+@media (min-width:576){
+    
+    	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+	
+    .name {
+        margin-top: 10px;
+    }
+}
+
+
+/*Tablet View*/
+
+@media (min-width: 768px){
+	
+	body {
+		max-width: 778px;
+	}
+	
+      
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+	
+    .name{
+        text-align:center
+    }
+	
+	.col-md-one-half {
+		width: 50%;
+	}
+	
+	.col {
+		float: left;
+		padding: 0px 7px 14px;
+	}
+    
+    .line-section{
+        opacity: 00;
+    }
+
+  
+}
+
+/*Desktop View*/
+
+@media (min-width: 1024px){
+	
+	body {
+		max-width: 1200px;
+	}
+	
+	.style-logo {
+		float: left;
+	}
+	
+	.style-nav {
+		float: right;
+	}
+	
+	.col-lg-one-fourth {
+		width: 25%;
+	}
+}
+
+.line-section{
+        opacity: 100;
+    }
+
+.a {
+    left: 192px;
+}
+
 
